@@ -10,7 +10,7 @@ let filtro = personas.filter((persona, idex) => persona.edad >= 18);
 
 console.log(filtro);
 
-
+//numero pares
 let numeros = [1, 2, 3, 4, 5, 6];
 
 let pares = numeros.filter((numero, index) => numero % 2 == 0);
@@ -18,12 +18,14 @@ let pares = numeros.filter((numero, index) => numero % 2 == 0);
 console.log(pares);
 
 
+//palabras que contengan la letra l
 let palabras = ['hola', 'adios', 'luna', 'sol', 'mundo', 'cielo'];
 
 let condicion = palabras.filter((palabra, index) => palabra.includes('l'));
 
 console.log(condicion);
 
+//empleados mayores de 30 y salario mayor a 1500
 let empleados = [
     { nombre: 'Juan', edad: 30, salario: 1000 },
     { nombre: 'Pedro', edad: 25, salario: 1500 },
